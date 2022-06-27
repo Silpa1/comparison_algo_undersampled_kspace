@@ -12,7 +12,7 @@ To generate Table III and Table V results:
 2.  Run Main_comparison_of_algorithm.m: This run all the 5 algorithms, calculate the time requirement for each algorithm and also reconstruct the MR images from undersampled kspace and display 20th frame.
 
 ===================================================================================
- I am using cardiac undersampled kspace data undersampled_kspace.mat and LpluS lin needs some extra fftshift so I added extra fft shift and given the name undersampled_kspace_lin
+ I am using cardiac undersampled kspace data undersampled_kspace.mat and LpluS lin needs some extra fftshift so I added extra fft shift and given the name undersampled_kspace_lin.mat. And also this will be fixed in the upcoming version.
 
 For questions contact sbabu@iastate.edu, namrata@iastate.edu
 
