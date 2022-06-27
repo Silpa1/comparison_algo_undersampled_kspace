@@ -9,14 +9,10 @@ To generate Table III and Table V results:
 
 1.  Run the mirt-main/setup.m: L+S-Lin code requires the Matlab version of the Michigan Image Reconstruction Toolbox (MIRT).
 
-2. Load the .mat files in the Dataset folder (Copy and paste the .mat files in the same folder contating the files).
-
-3.  Run Main_comparison_of_algorithm.m: This run all the 5 algorithms and calculate NMSE (Normalized Mean Square Error), Time required and Similarity index and save these results in Comparison_error.txt [Error(Time)] amd Comparison_sim.txt [sim(Time)].
-
+2.  Run Main_comparison_of_algorithm.m: This run all the 5 algorithms, calculate the time requirement for each algorithm and also reconstruct the MR images from undersampled kspace and display 20th frame.
 
 ===================================================================================
-
-The folder "Dataset" contains the MRI used in this paper (except long-speech sequence because of its larger size). For long-speech sequence email sbabu@iastate.edu, namrata@iastate.edu. 
+ I am using cardiac undersampled kspace data undersampled_kspace.mat and LpluS lin needs some extra fftshift so I added extra fft shift and given the name undersampled_kspace_lin
 
 For questions contact sbabu@iastate.edu, namrata@iastate.edu
 
