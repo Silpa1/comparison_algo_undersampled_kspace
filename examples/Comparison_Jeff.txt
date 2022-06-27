@@ -1,0 +1,2 @@
+Dataset(Radial) & LplusS_jeff    
+brain_T2_T1(4) &   0.0810 ( 3.44,  0.2580) 
